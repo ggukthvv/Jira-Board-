@@ -1,0 +1,64 @@
+.taskitem_btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.details_popup {
+    position: absolute;
+    background-color: #5e5e5e9c;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details {
+    width: 300px;
+    max-width: 500px;
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: relative;
+
+    padding: 20px;
+    background-color: white;
+
+}
+
+.taskitem_btn {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.delbtn {
+    border: none;
+    margin-right: 20px;
+    /* background-color: red; */
+}
+
+.btncont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.view_btn>svg {
+    border: none;
+    background-color: transparent;
+}
+
+.view_btn {
+    border: none;
+    background-color: transparent;
+    margin-right: 10px;
+}

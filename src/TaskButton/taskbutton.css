@@ -1,0 +1,10 @@
+.addbtn {
+    width: 150px;
+    height: 40px;
+    background-color: #a2a2a2;
+    border-radius: 8px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+
+}
